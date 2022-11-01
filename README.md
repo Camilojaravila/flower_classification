@@ -16,6 +16,6 @@ streamlit run main.py
 Para desplegar el contenedor, lo puede ejectutar con los siguientes comandos:
 
 ```
-docker build -t medical .
-docker run -it 9030:9030 --name med_app medical
+docker build -t flower .
+docker run -it 9030:9030 --name flower_app flower
 ```
