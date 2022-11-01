@@ -13,7 +13,7 @@ if 'images' not in st.session_state:
 if not st.session_state['images']:
     st.session_state['model'] = aux.load_model()
 
-    uploades_files = st.file_uploader("Sube una Imagen",  type = ['png', 'jpg'], accept_multiple_files=True)
+    uploades_files = st.file_uploader("Sube una Imagen",  type = ['png', 'jpg', 'jpeg'], accept_multiple_files=True)
     if st.button("Analizar Imagenes"):
         placeholder = st.empty()
         with placeholder.container():
