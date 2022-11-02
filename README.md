@@ -17,5 +17,5 @@ Para desplegar el contenedor, lo puede ejectutar con los siguientes comandos:
 
 ```
 docker build -t flower .
-docker run -it 9030:9030 --name flower_app flower
+docker run -dp 9030:9030 --name flower_app flower
 ```
