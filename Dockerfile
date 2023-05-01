@@ -10,7 +10,8 @@ WORKDIR $APP_HOME
 # Install dependencies.
 #RUN pip install -r requirements.txt
 RUN pip install streamlit==1.14.0 
-RUN pip install tensorflow==2.10.0 opencv-python
+RUN pip install tensorflow==2.10.0
+
 
 # Service must listen to $PORT environment variable.
 # This default value facilitates local development.
