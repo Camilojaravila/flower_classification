@@ -1,6 +1,6 @@
 # Use an official lightweight Python image.
 # https://hub.docker.com/_/python
-FROM jjanzic/docker-python3-opencv
+FROM datamachines/tensorflow_opencv:2.9.1_4.6.0-20220815
 
 RUN pip install --upgrade pip
 
@@ -9,8 +9,7 @@ WORKDIR $APP_HOME
 
 # Install dependencies.
 #RUN pip install -r requirements.txt
-RUN pip install streamlit==1.14.0 
-RUN pip install tensorflow==2.10.0
+RUN pip install streamlit==1.14.0
 
 
 # Service must listen to $PORT environment variable.
