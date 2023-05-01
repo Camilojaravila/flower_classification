@@ -1,6 +1,6 @@
 # Flower Classification
 
-Para una muestra de la funcionalidad, pueden entrar [acá](http://34.134.234.159:9030).
+Para una muestra de la funcionalidad, pueden entrar [acá](http://35.197.32.35:9030).
 
 Para desplegar este archivo localmente, son necesarias las siguientes librerías:
 * streamlit==1.14.0
